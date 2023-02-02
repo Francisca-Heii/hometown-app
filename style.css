@@ -1,0 +1,156 @@
+
+/*------------------------body section-------------------- */
+body {
+    margin: 0;
+    color: #CF9F72;
+    background-color: #2D2830;
+    background-size: cover;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+}
+.paragraph{
+    margin: 20px;
+
+}
+
+/*--------Hero image and heading text section---------------- */ 
+.hero {
+    
+    background-color: #D3B9A5;
+    height: 160px;
+    background-image: url("lion.jpg");
+    background-size: cover;
+    padding: 200px 0 250px 0;
+}
+
+.container {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    display: block;
+    
+}
+
+.heading {
+    background-color: #292324;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    
+    padding-top: 4px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-top-width: 5px;
+    margin-top: 10.44;
+    margin-bottom: 12px;
+
+}
+
+.title {
+    background-color: #292324;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 0;
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+/* --------------Places to visit section------------------*/
+.wildlife {
+    display: flex;
+    height: 250px;
+    justify-content: space-between;  
+}
+
+.wildlife-image {
+    border-radius: 50%;   
+}
+
+#animal {
+    margin-top: 30px;
+    border-top-width: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 0px;
+}
+
+#image-rotate figure img {
+    -webkit-transform: rotate(15deg) scale(1.4);
+	transform: rotate(15deg) scale(1.4);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    padding: 50px;
+    width: 150px;  
+}
+
+#image-rotate figure:hover img {
+    -webkit-transform: rotate(0) scale(1);
+	transform: rotate(0) scale(1);
+}
+
+h2 {
+    color: #CF9F72;
+    font-weight: bolder;
+    padding: 20px 5px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.underline {
+    border-bottom: 5px solid #CF9F72;
+}
+
+h3 {
+    color: #CF9F72;
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+a {
+    color: #ffffff;
+}
+
+/* ---------------------My profile section----------------- */
+.container-your-guide {
+    width: 600px;
+    height: 250px;
+    background-color: #292324;
+    margin: 130px auto 25px auto;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+
+.profile-picutue {
+    width: 200px;
+    height: 200px;
+     border-radius: 30px;
+    margin: 30px 2px 30px 20px;
+}
+
+/* ----------------------Footer section----------------- */
+.footer {
+    background-color: #292324;
+    color: #CF9F72;
+    font-weight: bolder;
+    padding: 10px 10px;
+}
+
+p a {
+    color: #CF9F72;
+}
+
+.about-me {
+    text-align: right;
+}
